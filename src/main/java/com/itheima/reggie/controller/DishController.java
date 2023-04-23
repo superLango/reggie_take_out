@@ -101,7 +101,7 @@ public class DishController {
     }
 
     /**
-     * 查询回显菜品
+     * 根据id 查询菜品信息和对应的口味信息
      *
      * @param id
      * @return
