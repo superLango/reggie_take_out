@@ -86,6 +86,10 @@ public class ShoppingCartController {
         return R.success(list);
     }
 
+    /**
+     * 清空购物车
+     * @return
+     */
     @DeleteMapping("/clean")
     public R<String> delete(){
         Long currentId = BaseContext.getCurrentId();

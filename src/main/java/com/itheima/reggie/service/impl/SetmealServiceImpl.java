@@ -29,6 +29,10 @@ public class SetmealServiceImpl extends ServiceImpl<SetmealMapper, Setmeal> impl
     @Autowired
     private SetmealDishService setmealDishService;
 
+    /**
+     * 新增套餐
+     * @param setmealDto
+     */
     @Override
     @Transactional
     public void saveWithDish(SetmealDto setmealDto) {

@@ -45,6 +45,13 @@ public class SetmealController {
         return R.success("新增套餐成功");
     }
 
+    /**
+     * 套餐信息分页查询
+     * @param page
+     * @param pageSize
+     * @param name
+     * @return
+     */
     @GetMapping("/page")
     public R<Page> page(int page, int pageSize, String name) {
         // 构造分页构造器对象
